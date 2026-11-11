@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Account Creator
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{AQ.Ab8RN6LpXGTBIntHkkodabSxqWluczpGUmxpXbFvqSy5ry80vg}}
         run: |
           python3 email_creator_with_selenium_and_gemini_audio.py
           
